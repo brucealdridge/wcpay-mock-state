@@ -10,14 +10,6 @@ class WCPay_Mock_State {
 	const PLUGIN_SLUG = 'wcpay-mock-state';
 
 	/**
-	 * @var string[] $paths - the path to search for JSON files to overwrite the REST response. Keys must match those in routes
-	 */
-	private $paths = [
-		'deposits'        => 'deposits',
-		'recent-deposits' => 'recent-deposits',
-	];
-
-	/**
 	 * @var string[]
 	 * These are the routes that are able to be overridden by the plugin.
 	 * The key is used to define the path to the available JSON files, and the value is the route to override.
