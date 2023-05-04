@@ -1,0 +1,67 @@
+{
+  "deposit": {
+    "last_paid": [
+      {
+        "id": "po_xxxxxxxxxxxxxxxxxxxxxxxx",
+        "date": 1655769600000,
+        "type": "deposit",
+        "amount": 235086,
+        "status": "paid",
+        "bankAccount": "STRIPE TEST BANK \u2022\u2022\u2022\u2022 6789 (USD)",
+        "currency": "usd",
+        "automatic": true,
+        "fee": 0,
+        "fee_percentage": 0,
+        "created": 1655769600
+      }
+    ],
+    "next_scheduled": [
+      {
+        "id": "wcpay_estimated_monthly_usd_1657756800",
+        "date": 1657756800000,
+        "type": "deposit",
+        "amount": 24214,
+        "status": "estimated",
+        "bankAccount": "STRIPE TEST BANK \u2022\u2022\u2022\u2022 6789 (USD)",
+        "currency": "usd",
+        "automatic": true,
+        "fee": 0,
+        "fee_percentage": 0,
+        "created": 1657756800
+      }
+    ],
+    "last_manual_deposits": []
+  },
+  "balance": {
+    "pending": [
+      {
+        "amount": 0,
+        "currency": "usd",
+        "source_types": {
+          "card": 0
+        },
+        "deposits_count": 0
+      }
+    ],
+    "available": [
+      {
+        "amount": 1188,
+        "currency": "usd",
+        "source_types": {
+          "card": 1188
+        }
+      }
+    ],
+    "instant": []
+  },
+  "account": {
+    "deposits_enabled": true,
+    "deposits_blocked": false,
+    "deposits_schedule": {
+      "delay_days": 2,
+      "interval": "monthly",
+      "monthly_anchor": 14
+    },
+    "default_currency": "usd"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "data": [
+    {
+      "id": "po_xxxxxxxxxxxxxxxxxxxxxxxx",
+      "date": 1655769600000,
+      "type": "deposit",
+      "amount": 235086,
+      "status": "paid",
+      "bankAccount": "STRIPE TEST BANK \u2022\u2022\u2022\u2022 6789 (USD)",
+      "currency": "usd",
+      "automatic": true,
+      "fee": 0,
+      "fee_percentage": 0,
+      "created": 1655769600
+    },
+    {
+      "id": "po_xxxxxxxxxxxxxxxxxxxxxxxx",
+      "date": 1655164800000,
+      "type": "withdrawal",
+      "amount": -1248,
+      "status": "paid",
+      "bankAccount": "STRIPE TEST BANK \u2022\u2022\u2022\u2022 6789 (USD)",
+      "currency": "usd",
+      "automatic": true,
+      "fee": 0,
+      "fee_percentage": 0,
+      "created": 1655164800
+    },
+    {
+      "id": "po_xxxxxxxxxxxxxxxxxxxxxxxx",
+      "date": 1655164800000,
+      "type": "deposit",
+      "amount": 162,
+      "status": "failed",
+      "bankAccount": "STRIPE TEST BANK \u2022\u2022\u2022\u2022 6789 (USD)",
+      "currency": "usd",
+      "automatic": true,
+      "fee": 0,
+      "fee_percentage": 0,
+      "created": 1655164800
+    }
+  ],
+  "total_count": 3
+}
